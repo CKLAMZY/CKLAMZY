@@ -1,9 +1,0 @@
-cklamzy-xmd/
-├── media/              # For images/audio files
-├── lib/                # Utility functions or external modules
-├── commands/           # Bot command files (e.g., help, ping)
-├── session/            # Auth data (QR login session)
-├── config.js           # Configuration file
-├── index.js            # Main bot entry file
-├── package.json        # Node.js project file
-├── README.md
