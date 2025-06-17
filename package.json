@@ -1,0 +1,12 @@
+{
+  "name": "savage_xmd",
+  "version": "1.0.0",
+  "main": "whatsapp.js",
+  "scripts": {
+    "start": "node whatsapp.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@hapi/boom": "^10.0.1"
+  }
+}

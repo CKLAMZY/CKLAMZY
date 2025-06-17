@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CKLAMZY XMD Loading</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: sans-serif;
+      color: #fff;
+    }
+    img {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+    .loader {
+      width: 80%;
+      height: 20px;
+      background: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+    .bar {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, #00ffcc, #0099ff);
+      animation: load 4s infinite;
+    }
+    @keyframes load {
+      0% { width: 0%; }
+      50% { width: 100%; }
+      100% { width: 0%; }
+    }
+  </style>
+</head>
+<body>
+  <img src="bot-image.jpg" alt="CKLAMZY XMD Bot">
+  <div class="loader"><div class="bar"></div></div>
+  <h2>CKLAMZY XMD is starting...</h2>
+</body>
+</html>
