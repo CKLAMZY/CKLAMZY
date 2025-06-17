@@ -1,3 +1,4 @@
+https://github.com/CKLAMZY/CKLAMZY/blob/main/bot-image.jpg?raw=true
 # SAVAGE_XMD WhatsApp Bot
 
 ## Features
